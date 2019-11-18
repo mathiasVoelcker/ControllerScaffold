@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <PackAsTool>true</PackAsTool>
+    <Version>1.0.2</Version>
+    <Authors>Mathias Voelcker</Authors>
+    <Company>mvoelcker</Company>
+    <PackageId>ControllerScaffold</PackageId>
+    <Product>ControllerScaffold</Product>
+    <ToolCommandName>controller-scaffold</ToolCommandName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

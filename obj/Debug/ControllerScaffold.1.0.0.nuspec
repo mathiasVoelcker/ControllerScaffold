@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ControllerScaffold</id>
+    <version>1.0.0</version>
+    <authors>Mathias Voelcker</authors>
+    <owners>Mathias Voelcker</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.2">
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/DefaultApp.dll" target="lib/netcoreapp2.2/DefaultApp.dll" />
+  </files>
+</package>

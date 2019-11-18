@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/DefaultApp.csproj": {}
+  },
+  "projects": {
+    "/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/DefaultApp.csproj": {
+      "version": "1.0.2",
+      "restore": {
+        "projectUniqueName": "/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/DefaultApp.csproj",
+        "projectName": "ControllerScaffold",
+        "projectPath": "/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/DefaultApp.csproj",
+        "packagesPath": "/Users/mathias_v94/.nuget/packages/",
+        "outputPath": "/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mathias_v94/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
