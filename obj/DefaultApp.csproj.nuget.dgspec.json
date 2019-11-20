@@ -5,7 +5,7 @@
   },
   "projects": {
     "/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/DefaultApp.csproj": {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "restore": {
         "projectUniqueName": "/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/DefaultApp.csproj",
         "projectName": "ControllerScaffold",
