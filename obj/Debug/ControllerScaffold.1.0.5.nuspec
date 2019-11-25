@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ControllerScaffold</id>
+    <version>1.0.5</version>
+    <authors>Mathias Voelcker</authors>
+    <owners>Mathias Voelcker</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/obj/DotnetToolSettings.xml" target="tools/netcoreapp2.2/any/DotnetToolSettings.xml" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/DefaultApp.dll" target="tools/netcoreapp2.2/any/DefaultApp.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/DefaultApp.deps.json" target="tools/netcoreapp2.2/any/DefaultApp.deps.json" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/DefaultApp.runtimeconfig.json" target="tools/netcoreapp2.2/any/DefaultApp.runtimeconfig.json" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/DefaultApp.pdb" target="tools/netcoreapp2.2/any/DefaultApp.pdb" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Extensions.MV.dll" target="tools/netcoreapp2.2/any/Extensions.MV.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Antiforgery.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Antiforgery.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Authentication.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Authentication.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Authentication.Core.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Authentication.Core.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Authorization.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Authorization.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Authorization.Policy.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Authorization.Policy.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Cors.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Cors.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Cryptography.Internal.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Cryptography.Internal.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.DataProtection.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.DataProtection.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.DataProtection.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.DataProtection.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Diagnostics.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Diagnostics.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Hosting.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Hosting.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Html.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Html.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Http.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Http.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Http.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Http.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Http.Extensions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Http.Extensions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Http.Features.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Http.Features.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.JsonPatch.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.JsonPatch.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Localization.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Localization.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.ApiExplorer.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.ApiExplorer.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.Core.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.Core.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.Cors.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.Cors.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.DataAnnotations.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.DataAnnotations.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.Formatters.Json.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.Formatters.Json.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.Localization.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.Localization.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.Razor.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.Razor.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.RazorPages.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.RazorPages.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.TagHelpers.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.TagHelpers.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Mvc.ViewFeatures.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Mvc.ViewFeatures.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Razor.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Razor.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Razor.Language.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Razor.Language.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Razor.Runtime.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Razor.Runtime.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Routing.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Routing.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.Routing.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.Routing.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.AspNetCore.WebUtilities.dll" target="tools/netcoreapp2.2/any/Microsoft.AspNetCore.WebUtilities.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.CodeAnalysis.dll" target="tools/netcoreapp2.2/any/Microsoft.CodeAnalysis.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.CodeAnalysis.CSharp.dll" target="tools/netcoreapp2.2/any/Microsoft.CodeAnalysis.CSharp.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.CodeAnalysis.Razor.dll" target="tools/netcoreapp2.2/any/Microsoft.CodeAnalysis.Razor.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.DotNet.PlatformAbstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.DotNet.PlatformAbstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.Caching.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.Caching.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.Caching.Memory.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.Caching.Memory.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.Configuration.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.DependencyInjection.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.DependencyInjection.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.DependencyModel.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.DependencyModel.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.FileProviders.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.FileProviders.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.FileProviders.Composite.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.FileProviders.Composite.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.FileSystemGlobbing.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.FileSystemGlobbing.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.Hosting.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.Hosting.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.Localization.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.Localization.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.Localization.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.Localization.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.Logging.Abstractions.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.Logging.Abstractions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.ObjectPool.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.ObjectPool.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.Options.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.Options.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.Primitives.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.Primitives.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Extensions.WebEncoders.dll" target="tools/netcoreapp2.2/any/Microsoft.Extensions.WebEncoders.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Microsoft.Net.Http.Headers.dll" target="tools/netcoreapp2.2/any/Microsoft.Net.Http.Headers.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Newtonsoft.Json.dll" target="tools/netcoreapp2.2/any/Newtonsoft.Json.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/Newtonsoft.Json.Bson.dll" target="tools/netcoreapp2.2/any/Newtonsoft.Json.Bson.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/System.Runtime.CompilerServices.Unsafe.dll" target="tools/netcoreapp2.2/any/System.Runtime.CompilerServices.Unsafe.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/System.Security.Cryptography.Pkcs.dll" target="tools/netcoreapp2.2/any/System.Security.Cryptography.Pkcs.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/System.Security.Cryptography.Xml.dll" target="tools/netcoreapp2.2/any/System.Security.Cryptography.Xml.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/System.Security.Permissions.dll" target="tools/netcoreapp2.2/any/System.Security.Permissions.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/System.Text.Encodings.Web.dll" target="tools/netcoreapp2.2/any/System.Text.Encodings.Web.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll" target="tools/netcoreapp2.2/any/runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" target="tools/netcoreapp2.2/any/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" />
+    <file src="/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/bin/Debug/netcoreapp2.2/publish/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" target="tools/netcoreapp2.2/any/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll" />
+  </files>
+</package>

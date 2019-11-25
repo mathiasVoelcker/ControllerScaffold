@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "DefaultApp/1.0.4": {
+      "DefaultApp/1.0.6": {
         "dependencies": {
           "Extensions.MV": "1.0.10",
           "Microsoft.AspNetCore.Mvc": "2.2.0"
@@ -1520,7 +1520,7 @@
     }
   },
   "libraries": {
-    "DefaultApp/1.0.4": {
+    "DefaultApp/1.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

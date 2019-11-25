@@ -10,17 +10,21 @@ namespace DefaultApp
         public static void Main(string[] args)
         {
             try {
-                Console.WriteLine("Hello World!");
-                
                 if (!Directory.Exists("./Controllers")) {
                     Directory.CreateDirectory("./Controllers");
                 }
 
                 Console.WriteLine(Directory.GetCurrentDirectory());
 
-                var controllerName = args[0];
+                string controllerName = "";
+                try {
+                    controllerName = args[0];
+                } catch(IndexOutOfRangeException) {
+                    Console.WriteLine("Write the name of the controller!");
+                    return;
+                }
 
-                var path = string.Concat("./Controllers/", args[0], "Controller", ".cs");
+                var path = string.Concat("./Controllers/", controllerName, "Controller", ".cs");
                 Console.WriteLine(path);
 
                 FileStream fileStream = null;
@@ -30,7 +34,7 @@ namespace DefaultApp
                 {  
                     foreach(var line in ClassText()) {
                         if (!string.IsNullOrEmpty(controllerName)) {
-                            var newLine = line.Replace("Default", controllerName.Capitalize());
+                            var newLine = line.Replace("Default", controllerName);
                             newLine = newLine.Replace("default", controllerName.ToLower());
                             writer.WriteLine(newLine);
                         }     
@@ -73,25 +77,25 @@ namespace DefaultApp
             lines.Add("         }");
             lines.Add("");
             lines.Add("         [HttpGet]");
-            lines.Add("         public async Task<ActionResult<IList<Default>>> GetById() {");
-            lines.Add("             return await _application.GetById();");
+            lines.Add("         public async Task<ActionResult<Default>> GetById(int id) {");
+            lines.Add("             return await _application.GetById(id);");
             lines.Add("         }");
             lines.Add("");        
             lines.Add("         [HttpPost]");
             lines.Add("         public async Task<ActionResult> Create([FromBody]Default default) {");
-            lines.Add("             await _application.Create();");
+            lines.Add("             await _application.Create(default);");
             lines.Add("             return Ok(\"Default Successfully Registered\");");
             lines.Add("         }");
             lines.Add("");        
             lines.Add("         [HttpPut]");
             lines.Add("         public async Task<ActionResult> Update([FromBody]Default default) {");
-            lines.Add("             await _application.Update();");
+            lines.Add("             await _application.Update(default);");
             lines.Add("             return Ok(\"Default Successfully Updated\");");
             lines.Add("         }");
             lines.Add("");        
             lines.Add("         [HttpDelete]");
             lines.Add("         public async Task<ActionResult> Delete([FromBody]int id) {");
-            lines.Add("             await _application.Delete();");
+            lines.Add("             await _application.Delete(id);");
             lines.Add("             return Ok(\"Default Successfully Deleted\");");
             lines.Add("         }");
             lines.Add("     }");
