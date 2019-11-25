@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "Extensions.MV/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Extensions.MV.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Extensions.MV.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2468,6 +2477,20 @@
     }
   },
   "libraries": {
+    "Extensions.MV/1.0.10": {
+      "sha512": "HxrNm9YEMSYPl2IFx1EMY8lK+u+jtLT0L4olGntOiDgVNxERd/abGu+Ako+Hsz42KtdCbO7vv7dNanP73Cqs+A==",
+      "type": "package",
+      "path": "extensions.mv/1.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "extensions.mv.1.0.10.nupkg.sha512",
+        "extensions.mv.nuspec",
+        "lib/net40/Extensions.MV.dll",
+        "lib/net45/Extensions.MV.dll",
+        "lib/netstandard2.0/Extensions.MV.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
       "sha512": "fVQsSXNZz38Ysx8iKwwqfOLHhLrAeKEMBS5Ia3Lh7BJjOC2vPV28/yk08AovOMsB3SNQPGnE7bv+lsIBTmAkvw==",
       "type": "package",
@@ -7607,6 +7630,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Extensions.MV >= 1.0.10",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
@@ -7616,7 +7640,7 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "restore": {
       "projectUniqueName": "/Users/mathias_v94/Desktop/PUCRS/2019_II/MEME/T2/DefaultApp/DefaultApp.csproj",
       "projectName": "ControllerScaffold",
@@ -7650,6 +7674,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Extensions.MV": {
+            "target": "Package",
+            "version": "[1.0.10, )"
+          },
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
             "version": "[2.2.0, )"
